@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superheroes Marvel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>Registrar un Nuevo Superhéroe</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="heroes.html">Listado de Superhéroes</a>
+            <a href="registro.html">Registrar Superhéroe</a>
+        </nav>
+    </header>
+    <form action="index.html" method="post">
+        <h1>Formulario de Registro</h1>
+        <fieldset>
+            <legend>Datos del Superhéroe</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+            <label for="poderes">Selecciona los poderes: </label>
+            <select name="poderes" id="poderes">
+                <option value="porDefecto">--Selecciona un Poder--</option>
+                <option value="vuelo">Vuelo</option>
+                <option value="fuerza">Super Fuerza</option>
+                <option value="inv">Invisibilidad</option>
+                <option value="telep">Telepatía</option>
+                <option value="veloc">Velocidad SobreHumana</option>
+                <option value="control">Control de Elementos</option>
+                <option value="reg">Regeneración</option>
+            </select>
+            <br><br>
+            <label for="genero">Género: </label>
+            <input type="radio" name="masc" id="masc"><b>Masculino</b>
+            <input type="radio" name="fem" id="fem"><b>Femenino</b>
+            <br><br>
+            <label for="habilidad">Habilidades Especiales:</label>
+            <input type="checkbox" name="vuelo" id="vuelo"><b>Vuelo</b>
+            <input type="checkbox" name="fuerza" id="fuerza"><b>Superfuerza</b>
+            <input type="checkbox" name="inv" id="inv"><b>Invisibilidad</b>
+            <br><br>
+            <label for="subida">Subir Imagen: </label>
+            <input type="submit" value="Seleccionar archivo">Ningun archivo seleccionado
+            <br><br>
+            <label for="descripcion">Descripción Detallada:</label>
+            <textarea name="desc" id="des"></textarea>
+            <br><br>
+            <input type="submit" value="Registrar Superhéroe">
+        </fieldset>
+    </form>
+    <footer>
+        <h3>Módulo de Lenguaje de Marcas</h2>
+        <h4>Profesora: Marta López Martos</h3>
+        <h4>Alumno/a: Álvaro Ríos Callejas</h3>
+    </footer>
+</body>
+</html>
